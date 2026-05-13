@@ -1,0 +1,25 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+<h1><i>Discover our delight Menu</i></h1>
+<i><b>Test the campus delight</b> </i> 
+<br>
+<br>
+<div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1 ">
+<% for (let menu of allMenu) { %>
+<div class="card col" style="width: 23rem;">
+  <img src="<%= menu.image.url %>" class="card-img-top" alt="menuItem_image"  
+  style="height: 15rem;">
+  <div class="card-body ">
+    <p class="card-text">
+        <b><%= menu.name %> </b> <br>
+        &#8377; <%= menu.price %> &nbsp; &nbsp;
+        <a href="/cart/add/<%= menu._id %>"><button class="btn btn-success">Add To Cart</button></a>
+    </p>
+  </div>
+</div>
+
+<% } %>
+</div>
+    
+</body>

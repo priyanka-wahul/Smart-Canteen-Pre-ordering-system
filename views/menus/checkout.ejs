@@ -1,0 +1,23 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+    <div class="checkout-container ">
+    <h1> Choose payment mode</h1>
+    <br>
+    <form action="/cart/place-order" method="POST" class="needs-validation" novalidate >
+        <div class="pay-form">
+            <div class="payment-option">
+                <input type="radio"name="payment"value="Cash On Delivery" required>
+                Cash On Delivery
+            </div>
+            <div class="payment-option">
+                <input type="radio"name="payment"value="UPI" required>
+                UPI
+            </div>
+            <button type="submit"class="place-order-btn">Place Order</button>
+
+        </div>
+
+    </form>
+    </div>
+</body>

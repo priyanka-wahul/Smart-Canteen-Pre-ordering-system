@@ -1,0 +1,42 @@
+<% layout("/layouts/boilerplate") %>
+
+<form action="/cart/checkout" method="POST">
+  <% if(cart.length === 0){ %>
+    <div class="empty-cart ">
+      <h2> Your Cart is Empty </h2>
+    </div>
+  <% } else { %>
+
+
+    <div class="cart-container">
+        <% let total = 0; %>
+        <% cart.forEach(menu => { 
+        total += menu.price;%>
+
+        <div class="card col" style="width: 23rem;">
+        <img src="<%= menu.image.url %>" 
+        class="card-img-top" 
+        alt="menuItem_image"  
+        style="height: 10rem;">
+
+        <div class="card-body cart-card">
+        <p class="card-text">
+        <b><%= menu.name %> </b> <br>
+        &#8377; <%= menu.price %> &nbsp; &nbsp;
+        </p>
+        <input type="hidden" name="items[]" value="<%= menu._id %>">
+        <a href="/cart/delete/<%= menu._id %>"class="delete-btn btn btn-danger"> Delete</a>
+        </div>
+    </div>
+<% }) %>
+</div>
+
+    <div class="total-section">
+        <h2>Total : &#8377; <%= total %></h2>
+        <button type="submit" class="checkout-btn btn btn-success">Payment</button>
+    </div>
+
+</div>
+</form>
+ <% } %>
+

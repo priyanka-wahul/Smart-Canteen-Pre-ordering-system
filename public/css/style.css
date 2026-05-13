@@ -1,0 +1,177 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+/* navbar  */
+.navbar {
+    height:5rem;
+    background-color: #fff;
+}
+
+.fa-web-awesome{
+    color: #000;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+.nav-link:hover{
+    color:#000 !important;
+}
+
+/* footer  */
+
+.footer-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+.footer-info-links a:hover {
+    text-decoration:underline;
+}
+
+.footer-info-links, .footer-info-socials, .footer-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem; 
+}
+
+.footer-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:auto !important;    
+    justify-content: center;
+    align-items: space-evenly;
+    
+}
+
+/* cards  */
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight:400 ;
+}
+
+.menu-link{
+    text-decoration: none;
+}
+
+/* card effect  */
+
+
+.btn:hover{
+    color: darkgreen;
+}
+
+/* cart item  */
+
+.cart-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-fit: cover !important;
+}
+
+.empty-cart h2{
+    text-align: center;
+    font-size: 3rem;
+    color:#777;
+    margin:auto;
+    padding:7.5rem !important;
+}
+
+.fa-cart-shopping  {
+    font-size: 1.5rem;
+    /* margin-left: 6rem; */
+}
+
+
+.total-section{
+    width:100%;
+    max-width:25rem;
+    margin:40px auto 0;
+    background:white;
+    padding:2.5rem;
+    border-radius:1rem;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.total-section h2{
+    margin-bottom:1.2rem;
+    color:#222;
+}
+
+.checkout-btn{
+    width:100%;
+    padding:1rem;
+    border:none;
+    border-radius:1rem;
+    font-size:1.2rem;
+    cursor:pointer;
+}
+
+.empty-cart{
+    text-align:center;
+    margin-top:6rem;
+    color:#666;
+    font-size:1.5rem;
+}
+
+/* checkout container  */
+
+.checkout-container{
+    max-width:500px;
+    margin:auto;
+    background:#ffffff;
+    padding:2rem;
+    border-radius:1rem;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.payment-option{
+    margin-bottom: 1rem;
+    font-size:1.2rem;
+}
+
+.pay-form{
+    margin-bottom: 1.6rem;
+}
+        
+
+.place-order-btn{
+    width:100%;
+    padding:1rem;
+    border:none;
+    background:green;
+    color:white;
+    font-size:1.2rem;
+    border-radius:1rem;
+    cursor:pointer;
+}
+
+.place-order-btn:hover{
+    background:darkgreen;
+}
+
