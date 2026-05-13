@@ -1,4 +1,4 @@
-This is college hackatho project
+## This is college hackathon project
 In Which my team worked on.
 
 ## Smart Canteen Pre-ordering System
