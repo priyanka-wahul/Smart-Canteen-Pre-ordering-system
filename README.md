@@ -1,9 +1,9 @@
 This is college hackatho project
 In Which my team worked on.
 
-Smart Canteen Pre-ordering System
+## Smart Canteen Pre-ordering System
 
-A full-stack food ordering web application where users can:
+## A full-stack food ordering web application where users can:
 
 - Signup/Login
 - Browse menu items
@@ -14,7 +14,7 @@ A full-stack food ordering web application where users can:
 - View flash messages
 - Session-based authentication
 
-#Tech Stack
+## Tech Stack
 
 - Node.js
 - Express.js
@@ -24,7 +24,7 @@ A full-stack food ordering web application where users can:
 - Passport.js
 - Express Session
 
-#Features
+## Features
 
 - User Authentication
 - Cart Management
