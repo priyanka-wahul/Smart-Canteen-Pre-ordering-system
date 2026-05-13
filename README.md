@@ -49,7 +49,7 @@ In Which my team worked on.
 - Error Handling
 - MVC Architecture
 
-- ## Team : Hack hustlers
+ ## Team : Hack hustlers
 - Madhavi Rakde
 - Divya Pujari
 - Pranita Manthalkar
