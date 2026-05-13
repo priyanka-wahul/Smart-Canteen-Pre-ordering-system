@@ -6,7 +6,7 @@ In Which my team worked on.
 ## A full-stack food ordering web application where users can:
 
 - Signup/Login
-- Browse menu items
+- explore menu items
 - Add items to cart
 - Delete cart items
 - Checkout with payment option
@@ -16,6 +16,22 @@ In Which my team worked on.
 
 ## Tech Stack
 
+### Frontend
+- EJS
+- Bootstrap
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+- Mongoose
+
+### Authentication
+- Passport.js
+- express-session
 - Node.js
 - Express.js
 - MongoDB
