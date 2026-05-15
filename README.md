@@ -49,8 +49,8 @@
 - MVC Architecture
 
 ### Team : Hack hustlers
-Madhavi Rakde
-Divya Pujari
-Pranita Manthalkar
-Priyanka Wahul
+ - Madhavi Rakde
+-  Divya Pujari
+-  Pranita Manthalkar
+-  Priyanka Wahul
  
