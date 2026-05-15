@@ -1,3 +1,4 @@
+## This is college hackathon project.
 
 ## Smart Canteen Pre-ordering System
 
@@ -47,4 +48,9 @@
 - Error Handling
 - MVC Architecture
 
+### Team : Hack hustlers
+Madhavi Rakde
+Divya Pujari
+Pranita Manthalkar
+Priyanka Wahul
  
